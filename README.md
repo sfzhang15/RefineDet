@@ -143,8 +143,6 @@ Please cite RefineDet in your publications if it helps your research:
   python examples/ssd/score_ssd_pascal.py
   ```
 
-
-
 ### Models
 We have provided the models that are trained from different datasets. To help reproduce the results in [Table 1, Table 2, Table 4](https://arxiv.org/pdf/1512.02325v4.pdf), most models contain a pretrained `.caffemodel` file, many `.prototxt` files, and python scripts.
 
