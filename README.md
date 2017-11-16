@@ -154,7 +154,7 @@ We have provided the models that are trained from different datasets. To help re
    * 07++12+COCO: [RefineDet320](https://drive.google.com/open?id=1pti47J-oE7Os02vNvO0JIrQp3_FQR70v), [RefineDet512](https://drive.google.com/open?id=1ZwnO_F1Pqdg1xyNSa-0XPEuh7knel9L_)
 
 2. COCO models:
-   * trainval35k (VGG-16): [RefineDet320](http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/), [RefineDet512](http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/)
+   * trainval35k (VGG-16): [RefineDet320](https://drive.google.com/open?id=1BIVvkSQM8DarpeqOpjgPpDxUoFq9ZxKM), [RefineDet512](https://drive.google.com/open?id=16j7gmHvd82LSog52kBXUUYyLx26mOV_6)
    * trainval35k (ResNet101): [RefineDet320](https://drive.google.com/open?id=1yrCfPIyKNsD9aBnn5iooFoX414FzXvzH), [RefineDet512](https://drive.google.com/open?id=1KWdfrowNIJqJF0j-ZxkQpkbAcPPbwAS1)
 
 <sup>[1]</sup>We use [`examples/convert_model_320.ipynb`](https://github.com/sfzhang15/RefineDet/examples/convert_model_320.ipynb) and [`examples/convert_model_512.ipynb`](https://github.com/sfzhang15/RefineDet/examples/convert_model_512.ipynb) to extract a VOC model from a pretrained COCO model.
