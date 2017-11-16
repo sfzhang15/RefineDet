@@ -147,13 +147,14 @@ Please cite RefineDet in your publications if it helps your research:
 We have provided the models that are trained from different datasets. To help reproduce the results in [Table 1, Table 2, Table 4](https://arxiv.org/pdf/1512.02325v4.pdf), most models contain a pretrained `.caffemodel` file, many `.prototxt` files, and python scripts.
 
 1. PASCAL VOC models (VGG-16):
-   * 07+12: [RefineDet320](http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/), [RefineDet512](http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/)
-   * 07++12: [RefineDet320](http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/), [RefineDet512](http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/)
-   * COCO<sup>[1]</sup>: [RefineDet320](http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/), [RefineDet512](http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/)
-   * 07+12+COCO: [RefineDet320](http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/), [RefineDet512](http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/)
+   * 07+12: [RefineDet320](https://drive.google.com/open?id=1rj6ikGCJg_rOlt0gUCXkjHzPkjpvzxXV), [RefineDet512](https://drive.google.com/open?id=10Fwymi1HizebH3qnyZmecXRvtBc1HCop)
+   * 07++12: [RefineDet320](https://drive.google.com/open?id=1d1T_tTImZynD88CoB0OF0rdFXgp4E_le), [RefineDet512](https://drive.google.com/open?id=1h9IrfBHKnO1tQq3PWmo0TLhQcx7lUHhj)
+   * COCO<sup>[1]</sup>: [RefineDet320](https://drive.google.com/open?id=1dl-eyCZgDv_UwxGb2c1Usaqq2u2u7sqz), [RefineDet512](https://drive.google.com/open?id=1vJ8CZlOocsF5cASr3k2Or1vQx-hTfxs6)
+   * 07+12+COCO: [RefineDet320](https://drive.google.com/open?id=1c8umLHI-x68uxT7CcCirFPhykPkyYUzC), [RefineDet512](https://drive.google.com/open?id=1-d4w152HsEaYgWY7v4_6zqxxQIijlHjX)
+   * 07++12+COCO: [RefineDet320](https://drive.google.com/open?id=1pti47J-oE7Os02vNvO0JIrQp3_FQR70v), [RefineDet512](https://drive.google.com/open?id=1ZwnO_F1Pqdg1xyNSa-0XPEuh7knel9L_)
 
 2. COCO models:
    * trainval35k (VGG-16): [RefineDet320](http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/), [RefineDet512](http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/)
-   * trainval35k (ResNet101): [RefineDet320](http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/), [RefineDet512](http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/)
+   * trainval35k (ResNet101): [RefineDet320](https://drive.google.com/open?id=1yrCfPIyKNsD9aBnn5iooFoX414FzXvzH), [RefineDet512](https://drive.google.com/open?id=1KWdfrowNIJqJF0j-ZxkQpkbAcPPbwAS1)
 
 <sup>[1]</sup>We use [`examples/convert_model_320.ipynb`](https://github.com/sfzhang15/RefineDet/examples/convert_model_320.ipynb) and [`examples/convert_model_512.ipynb`](https://github.com/sfzhang15/RefineDet/examples/convert_model_512.ipynb) to extract a VOC model from a pretrained COCO model.
