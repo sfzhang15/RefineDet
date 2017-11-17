@@ -130,6 +130,9 @@ Please cite RefineDet in your publications if it helps your research:
 3. Change the ‘self._data_path’ in [`refinedet_test/lib/datasets/coco.py`](https://github.com/sfzhang15/RefineDet/refinedet_test/lib/datasets/coco.py) to yours.
 
 4. Check out [`refinedet_test/refinedet_demo.py`](https://github.com/sfzhang15/RefineDet/refinedet_test/refinedet_demo.py) on how to detect objects using a RefineDet model and how to plot detection results.
+  ```Shell
+  python refinedet_test/refinedet_demo.py
+  ```
 
 5. Evaluate the trained models via [`refinedet_test/refinedet_test.py`](https://github.com/sfzhang15/RefineDet/refinedet_test/refinedet_test.py).
   ```Shell
