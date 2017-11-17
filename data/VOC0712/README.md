@@ -9,13 +9,11 @@
   tar -xvf VOCtest_06-Nov-2007.tar
   ```
 
-
 2. Create the trainval.txt, test.txt, and test_name_size.txt in data/VOC0712/
   ```Shell
   cd $RefineDet_ROOT
   ./data/VOC0712/create_list.sh
   ```
-
 
 3. Create the LMDB file.
   ```Shell
@@ -27,4 +25,3 @@
   cd $RefineDet_ROOT
   ./data/VOC0712/create_data.sh
   ```
-
