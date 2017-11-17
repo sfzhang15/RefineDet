@@ -121,20 +121,20 @@ Please cite RefineDet in your publications if it helps your research:
 ### Evaluation
 1. Build the Cython modules.
   ```Shell
-  cd $RefineDet_ROOT/refinedet_test/lib
+  cd $RefineDet_ROOT/test/lib
   make -j
   ```
   
-2. Change the ‘self._devkit_path’ in [`refinedet_test/lib/datasets/pascal_voc.py`](https://github.com/sfzhang15/RefineDet/refinedet_test/lib/datasets/pascal_voc.py) to yours.
+2. Change the ‘self._devkit_path’ in [`test/lib/datasets/pascal_voc.py`](https://github.com/sfzhang15/RefineDet/test/lib/datasets/pascal_voc.py) to yours.
 
-3. Change the ‘self._data_path’ in [`refinedet_test/lib/datasets/coco.py`](https://github.com/sfzhang15/RefineDet/refinedet_test/lib/datasets/coco.py) to yours.
+3. Change the ‘self._data_path’ in [`test/lib/datasets/coco.py`](https://github.com/sfzhang15/RefineDet/test/lib/datasets/coco.py) to yours.
 
-4. Check out [`refinedet_test/refinedet_demo.py`](https://github.com/sfzhang15/RefineDet/refinedet_test/refinedet_demo.py) on how to detect objects using a RefineDet model and how to plot detection results.
+4. Check out [`test/refinedet_demo.py`](https://github.com/sfzhang15/RefineDet/test/refinedet_demo.py) on how to detect objects using a RefineDet model and how to plot detection results.
   ```Shell
-  python refinedet_test/refinedet_demo.py
+  python test/refinedet_demo.py
   ```
 
-5. Evaluate the trained models via [`refinedet_test/refinedet_test.py`](https://github.com/sfzhang15/RefineDet/refinedet_test/refinedet_test.py).
+5. Evaluate the trained models via [`test/refinedet_test.py`](https://github.com/sfzhang15/RefineDet/test/refinedet_test.py).
   ```Shell
   # You can modify the parameters in refinedet_test.py for different types of evaluation:
   #  - single_scale: True is single scale testing, False is multi_scale_testing.
@@ -143,7 +143,7 @@ Please cite RefineDet in your publications if it helps your research:
   #  - coco_path: where the trained voc caffemodel.
   # For 'voc_2007_test' and 'coco_2014_minival', it will directly output the mAP results.
   # For 'voc_2012_test' and 'coco_2015_test-dev', it will save the detections and you should submitted it to the evaluation server to get the mAP results.
-  python refinedet_test/refinedet_test.py
+  python test/refinedet_test.py
   ```
 
 ### Models
