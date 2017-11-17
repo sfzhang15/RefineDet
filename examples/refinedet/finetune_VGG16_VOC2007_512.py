@@ -269,7 +269,7 @@ job_file = "{}/{}.sh".format(job_dir, model_name)
 # Stores the test image names and sizes. Created by data/VOC0712/create_list.sh
 name_size_file = "data/VOC0712/test_name_size.txt"
 # The pretrained model. We use the RefineDet model trained on coco dataset.
-pretrain_model = "models/VGGNet/VOC0712/refinedet_vgg16_512x512_coco/coco_refinenet_vgg16_512x512.caffemodel"
+pretrain_model = "models/VGGNet/VOC0712/refinedet_vgg16_512x512_coco/coco_refinedet_vgg16_512x512.caffemodel"
 # Stores LabelMapItem.
 label_map_file = "data/VOC0712/labelmap_voc.prototxt"
 
