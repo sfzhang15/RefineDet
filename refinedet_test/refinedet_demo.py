@@ -77,7 +77,7 @@ if __name__ == '__main__':
 
     # load model
     model_def = 'models/VGGNet/VOC0712/refinedet_vgg16_320x320/deploy.prototxt'
-    model_weights = 'models/VGGNet/VOC0712/refinedet_vgg16_320x320/VOC0712_refinedet_vgg16_320x320_iter_120000.caffemodel'
+    model_weights = 'models/VGGNet/VOC0712/refinedet_vgg16_320x320/VOC0712_refinedet_vgg16_320x320_final.caffemodel'
     net = caffe.Net(model_def, model_weights, caffe.TEST)
 
     # image preprocessing
