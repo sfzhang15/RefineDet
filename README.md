@@ -140,7 +140,7 @@ Please cite RefineDet in your publications if it helps your research:
   #  - coco_path: where the trained voc caffemodel.
   # For 'voc_2007_test' and 'coco_2014_minival', it will directly output the mAP results.
   # For 'voc_2012_test' and 'coco_2015_test-dev', it will save the detections and you should submitted it to the evaluation server to get the mAP results.
-  python examples/ssd/score_ssd_pascal.py
+  python refinedet_test/refinedet_test.py
   ```
 
 ### Models
