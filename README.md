@@ -24,7 +24,7 @@ We propose a novel single-shot based detector, called RefineDet, that achieves b
 
 
 <p align="left">
-<img src="http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/results.jpg" alt="RefineDet results on multiple datasets" width="775px">
+<img src="http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/results.jpg" alt="RefineDet results on multiple datasets" width="770px">
 </p>
 
 _Note: RefineDet300+ and RefineDet512+ are evaluated with the multi-scale testing strategy.  The code of the multi-scale testing has also been released in this repositories._
