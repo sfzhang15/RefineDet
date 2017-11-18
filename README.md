@@ -10,7 +10,7 @@ By [Shifeng Zhang](http://www.cbsr.ia.ac.cn/users/sfzhang/), [Longyin Wen](http:
 We propose a novel single-shot based detector, called RefineDet, that achieves better accuracy than two-stage methods and maintains comparable efficiency of one-stage methods. You can use the code to train/evaluate the RefineDet method for object detection. For more details, please refer to our [arXiv paper](xxxxxx).
 
 <p align="left">
-<img src="http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/structure.jpg" alt="RefineDet Structure" width="750px">
+<img src="http://pan.baidu.com/s/1gfEjb4f" alt="RefineDet Structure" width="750px">
 </p>
 
 | System | VOC2007 test *mAP* | **FPS** (Titan X) | Number of Boxes | Input resolution
