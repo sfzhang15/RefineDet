@@ -13,6 +13,7 @@ We propose a novel single-shot based detector, called RefineDet, that achieves b
     <img src="http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/structure.jpg" alt="RefineDet Structure" width="750px">
 </p>
 
+
 | System | VOC2007 test *mAP* | **FPS** (Titan X) | Number of Boxes | Input resolution
 |:-------|:-----:|:-------:|:-------:|:-------:|
 | [Faster R-CNN (VGG16)](https://github.com/ShaoqingRen/faster_rcnn) | 73.2 | 7 | ~6000 | ~1000 x 600 |
