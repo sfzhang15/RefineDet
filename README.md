@@ -72,11 +72,11 @@ Please cite our paper in your publications if it helps your research:
 
 2. Download [ResNet-101](https://github.com/KaimingHe/deep-residual-networks). By default, we assume the model is stored in `$RefineDet_ROOT/models/ResNet/`.
 
-3. Follow the [README.md](https://github.com/sfzhang15/RefineDet/data/VOC0712/README.md) to download VOC2007 and VOC2012 dataset and create the LMDB file for the VOC2007 training and testing.
+3. Follow the [data/VOC0712/README.md](https://github.com/sfzhang15/RefineDet/data/VOC0712/README.md) to download VOC2007 and VOC2012 dataset and create the LMDB file for the VOC2007 training and testing.
 
-4. Follow the [README.md](https://github.com/sfzhang15/RefineDet/data/VOC0712Plus/README.md) to download VOC2007 and VOC2012 dataset and create the LMDB file for the VOC2012 training and testing.
+4. Follow the [data/VOC0712Plus/README.md](https://github.com/sfzhang15/RefineDet/data/VOC0712Plus/README.md) to download VOC2007 and VOC2012 dataset and create the LMDB file for the VOC2012 training and testing.
 
-5. Follow the [README.md](https://github.com/sfzhang15/RefineDet/data/coco/README.md) to download MS COCO dataset and create the LMDB file for the COCO training and testing.
+5. Follow the [data/coco/README.md](https://github.com/sfzhang15/RefineDet/data/coco/README.md) to download MS COCO dataset and create the LMDB file for the COCO training and testing.
 
 ### Train
 1. Train your model on PASCAL VOC.
