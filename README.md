@@ -43,7 +43,7 @@ Please cite our paper in your publications if it helps your research:
 ### Contents
 1. [Installation](#installation)
 2. [Preparation](#preparation)
-3. [Train](#train)
+3. [Training](#training)
 4. [Evaluation](#evaluation)
 5. [Models](#models)
 
@@ -77,7 +77,7 @@ Please cite our paper in your publications if it helps your research:
 
 5. Follow the [data/coco/README.md](https://github.com/sfzhang15/RefineDet/data/coco/README.md) to download MS COCO dataset and create the LMDB file for the COCO training and testing.
 
-### Train
+### Training
 1. Train your model on PASCAL VOC.
   ```Shell
   # It will create model definition files and save snapshot models in:
