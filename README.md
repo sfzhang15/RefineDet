@@ -7,7 +7,7 @@ By [Shifeng Zhang](http://www.cbsr.ia.ac.cn/users/sfzhang/), [Longyin Wen](http:
 
 ### Introduction
 
-We propose a novel single-shot based detector, called RefineDet, that achieves better accuracy than two-stage methods and maintains comparable efficiency of one-stage methods. You can use the code to train/evaluate a network for object detection task. For more details, please refer to our [arXiv paper](xxxxxx).
+We propose a novel single-shot based detector, called RefineDet, that achieves better accuracy than two-stage methods and maintains comparable efficiency of one-stage methods. You can use the code to train/evaluate the RefineDet method for object detection. For more details, please refer to our [arXiv paper](xxxxxx).
 
 <p align="center">
 <img src="http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/structure.jpg" alt="RefineDet Structure" width="600px">
@@ -28,11 +28,11 @@ We propose a novel single-shot based detector, called RefineDet, that achieves b
 <img src="http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/results.jpg" alt="RefineDet results on multiple datasets" width="600px">
 </p>
 
-_Note: RefineDet300+ and RefineDet512+ are evaluated with the multi-scale testing strategy, whose code has been released at this repositories._
+_Note: RefineDet300+ and RefineDet512+ are evaluated with the multi-scale testing strategy.  The code of the multi-scale testing has also been released in this repositories._
 
 ### Citing RefineDet
 
-Please cite RefineDet in your publications if it helps your research:
+Please cite our paper in your publications if it helps your research:
 
     @inproceedings{xxxxxx,
       title = {Single-Shot Refinement Neural Network for Object Detection},
@@ -129,7 +129,7 @@ Please cite RefineDet in your publications if it helps your research:
 
 3. Change the ‘self._data_path’ in [`test/lib/datasets/coco.py`](https://github.com/sfzhang15/RefineDet/test/lib/datasets/coco.py) to yours.
 
-4. Check out [`test/refinedet_demo.py`](https://github.com/sfzhang15/RefineDet/test/refinedet_demo.py) on how to detect objects using a RefineDet model and how to plot detection results.
+4. Check out [`test/refinedet_demo.py`](https://github.com/sfzhang15/RefineDet/test/refinedet_demo.py) on how to detect objects using the RefineDet model and how to plot detection results.
   ```Shell
   python test/refinedet_demo.py
   ```
