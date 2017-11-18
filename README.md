@@ -71,11 +71,11 @@ Please cite our paper in your publications if it helps your research:
 
 2. Download [ResNet-101](https://github.com/KaimingHe/deep-residual-networks). By default, we assume the model is stored in `$RefineDet_ROOT/models/ResNet/`.
 
-3. Follow the [data/VOC0712/README.md](https://github.com/sfzhang15/RefineDet/data/VOC0712/README.md) to download VOC2007 and VOC2012 dataset and create the LMDB file for the VOC2007 training and testing.
+3. Follow the [data/VOC0712/README.md](https://github.com/sfzhang15/RefineDet/blob/master/data/VOC0712/README.md) to download VOC2007 and VOC2012 dataset and create the LMDB file for the VOC2007 training and testing.
 
-4. Follow the [data/VOC0712Plus/README.md](https://github.com/sfzhang15/RefineDet/data/VOC0712Plus/README.md) to download VOC2007 and VOC2012 dataset and create the LMDB file for the VOC2012 training and testing.
+4. Follow the [data/VOC0712Plus/README.md](https://github.com/sfzhang15/RefineDet/blob/master/data/VOC0712Plus/README.md) to download VOC2007 and VOC2012 dataset and create the LMDB file for the VOC2012 training and testing.
 
-5. Follow the [data/coco/README.md](https://github.com/sfzhang15/RefineDet/data/coco/README.md) to download MS COCO dataset and create the LMDB file for the COCO training and testing.
+5. Follow the [data/coco/README.md](https://github.com/sfzhang15/RefineDet/blob/master/data/coco/README.md) to download MS COCO dataset and create the LMDB file for the COCO training and testing.
 
 ### Training
 1. Train your model on PASCAL VOC.
@@ -124,16 +124,16 @@ Please cite our paper in your publications if it helps your research:
   make -j
   ```
   
-2. Change the ‘self._devkit_path’ in [`test/lib/datasets/pascal_voc.py`](https://github.com/sfzhang15/RefineDet/test/lib/datasets/pascal_voc.py) to yours.
+2. Change the ‘self._devkit_path’ in [`test/lib/datasets/pascal_voc.py`](https://github.com/sfzhang15/RefineDet/blob/master/test/lib/datasets/pascal_voc.py) to yours.
 
-3. Change the ‘self._data_path’ in [`test/lib/datasets/coco.py`](https://github.com/sfzhang15/RefineDet/test/lib/datasets/coco.py) to yours.
+3. Change the ‘self._data_path’ in [`test/lib/datasets/coco.py`](https://github.com/sfzhang15/RefineDet/blob/master/test/lib/datasets/coco.py) to yours.
 
-4. Check out [`test/refinedet_demo.py`](https://github.com/sfzhang15/RefineDet/test/refinedet_demo.py) on how to detect objects using the RefineDet model and how to plot detection results.
+4. Check out [`test/refinedet_demo.py`](https://github.com/sfzhang15/RefineDet/blob/master/test/refinedet_demo.py) on how to detect objects using the RefineDet model and how to plot detection results.
   ```Shell
   python test/refinedet_demo.py
   ```
 
-5. Evaluate the trained models via [`test/refinedet_test.py`](https://github.com/sfzhang15/RefineDet/test/refinedet_test.py).
+5. Evaluate the trained models via [`test/refinedet_test.py`](https://github.com/sfzhang15/RefineDet/blob/master/test/refinedet_test.py).
   ```Shell
   # You can modify the parameters in refinedet_test.py for different types of evaluation:
   #  - single_scale: True is single scale testing, False is multi_scale_testing.
