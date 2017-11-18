@@ -9,7 +9,7 @@ By [Shifeng Zhang](http://www.cbsr.ia.ac.cn/users/sfzhang/), [Longyin Wen](http:
 We propose a novel single-shot based detector, called RefineDet, that achieves better accuracy than two-stage methods and maintains comparable efficiency of one-stage methods. You can use the code to train/evaluate the RefineDet method for object detection. For more details, please refer to our [arXiv paper](https://arxiv.org/pdf/1711.xxxxx.pdf).
 
 <p align="left">
-<img src="http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/structure.jpg" alt="RefineDet Structure" width="777px">
+<img src="https://github.com/sfzhang15/RefineDet/blob/master/refinedet_structure.jpg" alt="RefineDet Structure" width="777px">
 </p>
 
 | System | VOC2007 test *mAP* | **FPS** (Titan X) | Number of Boxes | Input resolution
@@ -24,10 +24,10 @@ We propose a novel single-shot based detector, called RefineDet, that achieves b
 
 
 <p align="left">
-<img src="http://www.cbsr.ia.ac.cn/users/sfzhang/Research/RefineDet/results.jpg" alt="RefineDet results on multiple datasets" width="770px">
+<img src="https://github.com/sfzhang15/RefineDet/blob/master/refinedet_results.jpg" alt="RefineDet results on multiple datasets" width="770px">
 </p>
 
-_Note: RefineDet300+ and RefineDet512+ are evaluated with the multi-scale testing strategy.  The code of the multi-scale testing has also been released in this repositories._
+_Note: RefineDet300+ and RefineDet512+ are evaluated with the multi-scale testing strategy.  The code of the multi-scale testing has also been released in this repository._
 
 ### Citing RefineDet
 
