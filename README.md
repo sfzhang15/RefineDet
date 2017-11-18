@@ -1,6 +1,5 @@
 # Single-Shot Refinement Neural Network for Object Detection
 
-# [![Build Status](https://travis-ci.org/sfzhang15/RefineDet.svg?branch=master)](https://travis-ci.org/sfzhang15/RefineDet)
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)
 
 By [Shifeng Zhang](http://www.cbsr.ia.ac.cn/users/sfzhang/), [Longyin Wen](http://www.cbsr.ia.ac.cn/users/lywen/), [Xiao Bian](https://sites.google.com/site/cvbian/), [Zhen Lei](http://www.cbsr.ia.ac.cn/users/zlei/), [Stan Z. Li](http://www.cbsr.ia.ac.cn/users/szli/).
