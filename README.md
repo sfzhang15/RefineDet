@@ -32,6 +32,7 @@ _Note: RefineDet300+ and RefineDet512+ are evaluated with the multi-scale testin
 ### Citing RefineDet
 
 Please cite our paper in your publications if it helps your research:
+
     ```Shell
     @article{zhang2017single,
       title = {Single-Shot Refinement Neural Network for Object Detection},
