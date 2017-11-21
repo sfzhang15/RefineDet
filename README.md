@@ -6,7 +6,7 @@ By [Shifeng Zhang](http://www.cbsr.ia.ac.cn/users/sfzhang/), [Longyin Wen](http:
 
 ### Introduction
 
-We propose a novel single-shot based detector, called RefineDet, that achieves better accuracy than two-stage methods and maintains comparable efficiency of one-stage methods. You can use the code to train/evaluate the RefineDet method for object detection. For more details, please refer to our [arXiv paper](https://arxiv.org/pdf/1711.xxxxx.pdf).
+We propose a novel single-shot based detector, called RefineDet, that achieves better accuracy than two-stage methods and maintains comparable efficiency of one-stage methods. You can use the code to train/evaluate the RefineDet method for object detection. For more details, please refer to our [arXiv paper](https://arxiv.org/pdf/1711.06897.pdf).
 
 <p align="left">
 <img src="https://github.com/sfzhang15/RefineDet/blob/master/refinedet_structure.jpg" alt="RefineDet Structure" width="777px">
@@ -33,10 +33,10 @@ _Note: RefineDet300+ and RefineDet512+ are evaluated with the multi-scale testin
 
 Please cite our paper in your publications if it helps your research:
 
-    @inproceedings{xxxxxx,
+    @inproceedings{zhang2017single,
       title = {Single-Shot Refinement Neural Network for Object Detection},
       author = {Zhang, Shifeng and Wen, Longyin and Bian, Xiao and Lei, Zhen and Li, Stan Z.},
-      booktitle = {arxiv},
+      booktitle = {arxiv preprint arXiv:1711.06897},
       year = {2017}
     }
 
@@ -146,7 +146,7 @@ Please cite our paper in your publications if it helps your research:
   ```
 
 ### Models
-We have provided the models that are trained from different datasets. To help reproduce the results in [Table 1, Table 2, Table 4](https://arxiv.org/pdf/1711.xxxxx.pdf), most models contain a pretrained `.caffemodel` file, many `.prototxt` files, and python scripts.
+We have provided the models that are trained from different datasets. To help reproduce the results in [Table 1, Table 2, Table 4](https://arxiv.org/pdf/1711.06897.pdf), most models contain a pretrained `.caffemodel` file, many `.prototxt` files, and python scripts.
 
 1. PASCAL VOC models (VGG-16):
    * 07+12: [RefineDet320](https://drive.google.com/open?id=1rj6ikGCJg_rOlt0gUCXkjHzPkjpvzxXV), [RefineDet512](https://drive.google.com/open?id=10Fwymi1HizebH3qnyZmecXRvtBc1HCop)
