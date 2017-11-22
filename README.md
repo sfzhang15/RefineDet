@@ -57,10 +57,9 @@ Please cite our paper in your publications if it helps your research:
   ```Shell
   cd $RefineDet_ROOT
   # Modify Makefile.config according to your Caffe installation.
-  cp Makefile.config.example Makefile.config
-  make -j8
   # Make sure to include $RefineDet_ROOT/python to your PYTHONPATH.
-  make py
+  cp Makefile.config.example Makefile.config
+  make all -j && make py
   ```
 
 ### Preparation
