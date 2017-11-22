@@ -61,9 +61,6 @@ Please cite our paper in your publications if it helps your research:
   make -j8
   # Make sure to include $RefineDet_ROOT/python to your PYTHONPATH.
   make py
-  make test -j8
-  # (Optional)
-  make runtest -j8
   ```
 
 ### Preparation
