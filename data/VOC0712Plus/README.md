@@ -7,8 +7,8 @@
   tar -xvf VOCtrainval_11-May-2012.tar
   tar -xvf VOCtrainval_06-Nov-2007.tar
   tar -xvf VOCtest_06-Nov-2007.tar
-  **Download VOC2012test.tar via http://host.robots.ox.ac.uk:8080/eval/downloads/VOC2012test.tar and upzip it.**
   ```
+  **Download VOC2012test.tar via http://host.robots.ox.ac.uk:8080/eval/downloads/VOC2012test.tar and upzip it.**
 
 2. Create the trainval.txt, test.txt, and test_name_size.txt in `data/VOC0712Plus/`
   ```Shell
