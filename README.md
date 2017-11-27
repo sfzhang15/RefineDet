@@ -83,7 +83,7 @@ Please cite our paper in your publications if it helps your research:
   python examples/refinedet/VGG16_VOC2007_320.py
   python examples/refinedet/VGG16_VOC2007_512.py
   python examples/refinedet/VGG16_VOC2012_320.py
-  python examples/refinedet/VGG16_VOC2007_512.py
+  python examples/refinedet/VGG16_VOC2012_512.py
   ```
   
 2. Train your model on COCO.
