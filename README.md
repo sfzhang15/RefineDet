@@ -15,7 +15,7 @@ We propose a novel single-shot based detector, called RefineDet, that achieves b
 | System | VOC2007 test *mAP* | **FPS** (Titan X) | Number of Boxes | Input resolution
 |:-------|:-----:|:-------:|:-------:|:-------:|
 | [Faster R-CNN (VGG16)](https://github.com/ShaoqingRen/faster_rcnn) | 73.2 | 7 | ~6000 | ~1000 x 600 |
-| [YOLO (GoogleNe)](http://pjreddie.com/darknet/yolo/) | 63.4 | 45 | 98 | 448 x 448 |
+| [YOLO (GoogLeNet)](http://pjreddie.com/darknet/yolo/) | 63.4 | 45 | 98 | 448 x 448 |
 | [YOLOv2 (Darknet-19)](http://pjreddie.com/darknet/yolo/) | 78.6 | 40 | 845 | 544 x 544 |
 | [SSD300* (VGG16)](https://github.com/weiliu89/caffe/tree/ssd) | 77.2 | 46 | 8732 | 300 x 300 |
 | [SSD512* (VGG16)](https://github.com/weiliu89/caffe/tree/ssd) | 79.8 | 19 | 24564 | 512 x 512 |
