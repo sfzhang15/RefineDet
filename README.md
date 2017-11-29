@@ -48,7 +48,7 @@ Please cite our paper in your publications if it helps your research:
 5. [Models](#models)
 
 ### Installation
-1. Get the code. We will call the directory that you cloned Caffe into `$RefineDet_ROOT`.
+1. Get the code. We will call the cloned directory as `$RefineDet_ROOT`.
   ```Shell
   git clone https://github.com/sfzhang15/RefineDet.git
   ```
