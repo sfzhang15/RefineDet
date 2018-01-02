@@ -493,6 +493,10 @@ void DetectionOutputLayer<Dtype>::Forward_cpu(
   }
 }
 
+#ifdef CPU_ONLY
+STUB_GPU_FORWARD(DetectionOutputLayer, Forward);
+#endif
+
 INSTANTIATE_CLASS(DetectionOutputLayer);
 REGISTER_LAYER_CLASS(DetectionOutput);
 
