@@ -754,7 +754,7 @@ TEST_F(CPUBBoxUtilTest, TestGetGroundTruth) {
   }
 
   map<int, vector<NormalizedBBox> > all_gt_bboxes;
-  GetGroundTruth(gt_data, num_gt, -1, true, &all_gt_bboxes);
+  GetGroundTruth(gt_data, num_gt, -1, true, 10, &all_gt_bboxes);
 
   EXPECT_EQ(all_gt_bboxes.size(), 3);
 
@@ -788,7 +788,7 @@ TEST_F(CPUBBoxUtilTest, TestGetGroundTruth) {
   EXPECT_NEAR(all_gt_bboxes[2][0].size(), 0.04, eps);
 
   // Skip difficult ground truth.
-  GetGroundTruth(gt_data, num_gt, -1, false, &all_gt_bboxes);
+  GetGroundTruth(gt_data, num_gt, -1, false, 10, &all_gt_bboxes);
 
   EXPECT_EQ(all_gt_bboxes.size(), 2);
 
@@ -828,7 +828,7 @@ TEST_F(CPUBBoxUtilTest, TestGetGroundTruthLabelBBox) {
   }
 
   map<int, LabelBBox> all_gt_bboxes;
-  GetGroundTruth(gt_data, num_gt, -1, true, &all_gt_bboxes);
+  GetGroundTruth(gt_data, num_gt, -1, true, 10, &all_gt_bboxes);
 
   EXPECT_EQ(all_gt_bboxes.size(), 3);
 
@@ -862,7 +862,7 @@ TEST_F(CPUBBoxUtilTest, TestGetGroundTruthLabelBBox) {
   EXPECT_NEAR(all_gt_bboxes[2].find(3)->second[0].size(), 0.04, eps);
 
   // Skip difficult ground truth.
-  GetGroundTruth(gt_data, num_gt, -1, false, &all_gt_bboxes);
+  GetGroundTruth(gt_data, num_gt, -1, false, 10, &all_gt_bboxes);
 
   EXPECT_EQ(all_gt_bboxes.size(), 2);
 
