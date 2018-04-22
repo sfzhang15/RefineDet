@@ -62,6 +62,7 @@ def ShowResults(img, image_file, results, labelmap, threshold=0.6, save_fig=Fals
         ax.text(xmin, ymin, display_text, bbox={'facecolor':color, 'alpha':0.5})
     if save_fig:
         plt.savefig(image_file[:-4] + '_dets.jpg', bbox_inches="tight")
+        print('Saved: ' + image_file[:-4] + '_dets.jpg')
     plt.show()
 
 if __name__ == '__main__':
