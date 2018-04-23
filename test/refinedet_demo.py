@@ -2,6 +2,7 @@
 In this example, we will load a RefineDet model and use it to detect objects.
 '''
 
+import argparse
 import os
 import sys
 import numpy as np
@@ -61,13 +62,19 @@ def ShowResults(img, image_file, results, labelmap, threshold=0.6, save_fig=Fals
         ax.text(xmin, ymin, display_text, bbox={'facecolor':color, 'alpha':0.5})
     if save_fig:
         plt.savefig(image_file[:-4] + '_dets.jpg', bbox_inches="tight")
+        print('Saved: ' + image_file[:-4] + '_dets.jpg')
     plt.show()
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--gpu_id', type=int, default=0)
+    parser.add_argument('--save_fig', action='store_true')
+    args = parser.parse_args()
+
     # gpu preparation
-    gpu_id = 0
-    caffe.set_device(gpu_id)
-    caffe.set_mode_gpu()
+    if args.gpu_id >= 0:
+        caffe.set_device(args.gpu_id)
+        caffe.set_mode_gpu()
 
     # load labelmap
     labelmap_file = 'data/VOC0712/labelmap_voc.prototxt'
@@ -110,4 +117,4 @@ if __name__ == '__main__':
         result = np.column_stack([det_xmin, det_ymin, det_xmax, det_ymax, det_conf, det_label])
 
         # show result
-        ShowResults(image, image_file, result, labelmap, 0.6, save_fig=False)
+        ShowResults(image, image_file, result, labelmap, 0.6, save_fig=args.save_fig)
