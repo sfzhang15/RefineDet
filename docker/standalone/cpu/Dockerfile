@@ -29,11 +29,15 @@ WORKDIR $CAFFE_ROOT
 # FIXME: clone a specific git tag and use ARG instead of ENV once DockerHub supports this.
 ENV CLONE_TAG=master
 
-RUN git clone -b ${CLONE_TAG} --depth 1 https://github.com/BVLC/caffe.git . && \
-    for req in $(cat python/requirements.txt) pydot; do pip install $req; done && \
-    mkdir build && cd build && \
-    cmake -DCPU_ONLY=1 .. && \
-    make -j"$(nproc)"
+RUN git clone -b ${CLONE_TAG} --depth 1 https://github.com/sfzhang15/RefineDet.git . && \
+    cp Makefile.config.example Makefile.config && \
+    sed -i -e 's/#\ CPU_ONLY/CPU_ONLY/g' ./Makefile.config && \
+    sed -i -e 's/USE_CUDNN/#\ USE_CUDNN/g' ./Makefile.config && \
+    make all -j"$(nproc)"
+
+RUN pip install --upgrade pip && \
+    for req in $(cat python/requirements.txt) pydot easydict; do pip install $req; done && \
+    make py -j"$(nproc)"
 
 ENV PYCAFFE_ROOT $CAFFE_ROOT/python
 ENV PYTHONPATH $PYCAFFE_ROOT:$PYTHONPATH
