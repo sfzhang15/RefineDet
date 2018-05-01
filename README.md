@@ -131,7 +131,7 @@ Please cite our paper in your publications if it helps your research:
   
  For CPU users,
   ```Shell
-  python test/refinedet_demo.py --args.gpu_id -1
+  python test/refinedet_demo.py --gpu_id -1
   ```
 
 5. Evaluate the trained models via [`test/refinedet_test.py`](https://github.com/sfzhang15/RefineDet/blob/master/test/refinedet_test.py).
