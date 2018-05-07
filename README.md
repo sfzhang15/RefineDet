@@ -128,9 +128,9 @@ Please cite our paper in your publications if it helps your research:
   ```Shell
   python test/refinedet_demo.py
   ```
-  
-  For CPU users,
+    
   ```Shell
+  # For CPU users,
   python test/refinedet_demo.py --gpu_id -1
   ```
 
