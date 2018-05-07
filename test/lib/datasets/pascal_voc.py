@@ -24,7 +24,7 @@ class pascal_voc(imdb):
         imdb.__init__(self, 'voc_' + year + '_' + image_set)
         self._year = year
         self._image_set = image_set
-        self._devkit_path = '/home/shifeng/data/Object_Detection/pascal/VOCdevkit'
+        self._devkit_path = os.environ['HOME'] + '/data/Object_Detection/pascal/VOCdevkit'
         self._data_path = os.path.join(self._devkit_path, 'VOC' + self._year)
         self._classes = ('__background__', # always index 0
                          'aeroplane', 'bicycle', 'bird', 'boat',
