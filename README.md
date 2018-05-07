@@ -129,7 +129,7 @@ Please cite our paper in your publications if it helps your research:
   python test/refinedet_demo.py
   ```
   
- For CPU users,
+  For CPU users,
   ```Shell
   python test/refinedet_demo.py --gpu_id -1
   ```
