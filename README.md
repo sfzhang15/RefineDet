@@ -126,11 +126,9 @@ Please cite our paper in your publications if it helps your research:
 
 4. Check out [`test/refinedet_demo.py`](https://github.com/sfzhang15/RefineDet/blob/master/test/refinedet_demo.py) on how to detect objects using the RefineDet model and how to plot detection results.
   ```Shell
+  # For GPU users
   python test/refinedet_demo.py
-  ```
-    
-  ```Shell
-  # For CPU users,
+  # For CPU users
   python test/refinedet_demo.py --gpu_id -1
   ```
 
