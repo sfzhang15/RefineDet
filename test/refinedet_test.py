@@ -19,9 +19,9 @@ if __name__ == '__main__':
         path = coco_path
 
     if '320' in path:
-    	input_size = 320
+        input_size = 320
     else:
-    	input_size = 512
+        input_size = 512
 
     caffe.set_mode_gpu()
     caffe.set_device(GPU_ID)
@@ -48,11 +48,12 @@ if __name__ == '__main__':
         if model.find('caffemodel') == -1:
             continue
         caffemodel = path + model
+        print('Start evaluating: ' + caffemodel)
         net = caffe.Net(prototxt, caffemodel, caffe.TEST)
         net.name = os.path.splitext(os.path.basename(model))[0]
         cfg.net_name = net.name
         try:
-        	iter = int(net.name.split('_')[-1])
+            iter = int(net.name.split('_')[-1])
         except:
             iter = 000000
         if single_scale is True:
