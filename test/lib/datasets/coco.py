@@ -55,7 +55,7 @@ class coco(imdb):
         # name, paths
         self._year = year
         self._image_set = image_set
-        self._data_path = '/home/shifeng/data/Object_Detection/coco'
+        self._data_path = os.environ['HOME'] + '/data/Object_Detection/coco'
         # load COCO API, classes, class <-> id mappings
         self._COCO = COCO(self._get_ann_file())
         cats = self._COCO.loadCats(self._COCO.getCatIds())
