@@ -318,10 +318,10 @@ bool ReadXMLToAnnotatedDatum(const string& labelfile, const int img_height,
         } else if (v2.first == "difficult") {
           difficult = pt2.data() == "1";
         } else if (v2.first == "bndbox") {
-          int xmin = pt2.get("xmin", 0);
-          int ymin = pt2.get("ymin", 0);
-          int xmax = pt2.get("xmax", 0);
-          int ymax = pt2.get("ymax", 0);
+          float xmin = pt2.get<float>("xmin", 0);
+          float ymin = pt2.get<float>("ymin", 0);
+          float xmax = pt2.get<float>("xmax", 0);
+          float ymax = pt2.get<float>("ymax", 0);
           CHECK_NOTNULL(anno);
           LOG_IF(WARNING, xmin > width) << labelfile <<
               " bounding box exceeds image boundary.";
