@@ -33,11 +33,11 @@ _Note: RefineDet300+ and RefineDet512+ are evaluated with the multi-scale testin
 
 Please cite our paper in your publications if it helps your research:
 
-    @article{zhang2017single,
+    @inproceedings{zhang2017single,
       title = {Single-Shot Refinement Neural Network for Object Detection},
       author = {Zhang, Shifeng and Wen, Longyin and Bian, Xiao and Lei, Zhen and Li, Stan Z.},
-      booktitle = {arxiv preprint arXiv:1711.06897},
-      year = {2017}
+      booktitle = {CVPR},
+      year = {2018}
     }
 
 ### Contents
