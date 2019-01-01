@@ -35,7 +35,7 @@ RUN git clone -b ${CLONE_TAG} --depth 1 https://github.com/sfzhang15/RefineDet.g
     sed -i -e 's/USE_CUDNN/#\ USE_CUDNN/g' ./Makefile.config && \
     make all -j"$(nproc)"
 
-RUN pip install --upgrade pip && \
+RUN sudo pip install --upgrade --ignore-installed six pip && \
     for req in $(cat python/requirements.txt) pydot easydict; do pip install $req; done && \
     make py -j"$(nproc)"
 
