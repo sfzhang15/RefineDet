@@ -216,7 +216,7 @@ __C.USE_GPU_NMS = True
 # Default GPU device id
 __C.GPU_ID = 0
 
-# Default GPU device id
+# mAP of test
 __C.mAP = 0.0
 
 # net_name
